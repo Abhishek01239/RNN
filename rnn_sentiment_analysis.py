@@ -1,9 +1,3 @@
-"""
-RNN Sentiment Analysis - Industry Style
-Author: Abhishek
-Framework: TensorFlow
-"""
-
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -158,4 +152,5 @@ def predict_review(text):
 # ==============================
 
 predict_review("This movie was absolutely amazing and fantastic")
+
 predict_review("This was the worst movie I have ever seen")
